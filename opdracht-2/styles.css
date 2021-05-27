@@ -3,3 +3,70 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    text-align-all: left;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin
+}
+
+ul {
+    list-style: none;
+    width: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.greenbox {
+    display: flex;
+   justify-content: center;
+}
+
+#formulier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulier input {
+    width: 100%;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.five article{
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .five article {
+        width: 50%;
+    }
+    #tekstbox3 {
+        width: 100%;
+    }
+}
